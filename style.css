@@ -1,0 +1,217 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    
+}
+
+
+.caja1 {
+
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 2px;
+    width: 290px;
+    height: 610px;
+    background-color: rgb(131, 108, 108);
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: white;
+    padding: 2px;
+
+}
+
+img {
+    width: 120px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.perfil {
+    font-size: 1.5rem;
+    background-color: black;
+    letter-spacing: 3pt;
+}
+
+.datos {
+    margin: 10px 10px;
+}
+
+.nacimiento {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.email {
+
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.mimail {
+    font-size: 1.1rem;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    transition: all 0.2s;
+}
+
+.mimail:hover {
+    background-color: black;
+    font-size: large;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.tel {
+    font-size: 1rem;
+    font-weight: 900;
+    text-align: left;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.minumero {
+    font-size: 1.1rem;
+    text-align: left;
+    transition: 0.2s;
+}
+
+.minumero:hover {
+    background-color: black;
+    font-size: x-large;
+    border: 1px solid white;
+    border-radius: 5px;
+
+}
+
+.habilidades {
+    font-size: 1.5rem;
+    letter-spacing: 3pt;
+    background-color: black;
+    text-align: center;
+
+}
+
+.datosh {
+    margin: 10px 10px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.datosh:hover {
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+.idiomas {
+    font-size: 1.5rem;
+    letter-spacing: 3pt;
+    background-color: black;
+    text-align: center;
+
+}
+
+.didiomas {
+    margin: 10px 10px;
+    font-size: 0.9rem;
+    text-align: left;
+}
+
+.didiomas:hover {
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+.caja2 {
+    margin: 10px;
+    width: 990px;
+    height: 600px;
+    background-color: white;
+    text-align: left;
+
+}
+
+.mi {
+    font-size: 1.5rem;
+    letter-spacing: 3pt;
+    background-color: white;
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.sobremi {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 1.5rem;
+    transition: 0.1s;
+    background-color: white;
+}
+
+.sobremi:hover {
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 15px;
+}
+
+.experiencia {
+    font-size: 1.5rem;
+    letter-spacing: 3pt;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+.datosexperiencia {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    font-size: 1.5rem;
+    background-color: white;
+}
+
+.datosexperiencia:hover {
+    background-color: black;
+    color: white;
+    border: 5px solid red;
+    border-radius: 15px;
+
+
+}
+@media only screen and (max-width: 800px) {
+    .container{
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 0%;
+    }
+    .caja1 {
+        width: 100%;
+        
+
+    }
+    .caja2 {
+        width: 100%;
+        
+    }
+    .sobremi {
+        font-size: 1rem;
+    }
+    .datosexperiencia {
+        font-size: 1rem;
+    }
+       }
+
+    
